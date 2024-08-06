@@ -1,0 +1,56 @@
+.summary-items {
+  background: #1f2029;
+  border-radius: 5%;
+  padding: 0.8rem;
+  height: 8rem;
+}
+
+.summary-icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+}
+
+.summary-title {
+  color: antiquewhite;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.summary-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+.details-value {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.details-percent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.2rem;
+}
+
+.percent-green {
+  color: #00c888;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.percent-red {
+  color: #ff0000;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.arrow-icon {
+  margin-top: 0.25rem;
+}

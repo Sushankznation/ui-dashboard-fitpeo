@@ -1,0 +1,97 @@
+.header {
+  background: #1f2029;
+  height: 4.5rem;
+  padding: 1rem 1.5rem 1rem 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #aaaaaa11;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-input {
+  width: 20rem;
+  height: 1.8rem;
+  padding-left: 2rem;
+  color: #cbccd0;
+  background: #292b2f;
+  outline: none;
+  border: 1px solid #cbccd04e;
+  border-radius: 5px;
+}
+.search-icon {
+  position: relative;
+  left: 1.7rem;
+  top: 0.4rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mail-icon,
+.settings-icon,
+.notification-icon {
+  border: none;
+  padding: 5px;
+  background: #4a4f5ac3;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.avatar {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 4rem;
+  }
+
+  .header-input {
+    width: 10rem;
+  }
+
+  .header-right {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 425px) {
+  .header-right {
+    gap: 0.5rem;
+  }
+
+  .mail-icon {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    height: 3.5rem;
+  }
+
+  .header-input {
+    width: 7.5rem;
+  }
+
+  .header-right {
+    gap: 0.2rem;
+  }
+
+  .mail-icon {
+    display: none;
+  }
+}

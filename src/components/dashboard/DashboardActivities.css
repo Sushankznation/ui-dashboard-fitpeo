@@ -1,0 +1,59 @@
+.dashboard-activities {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 0 1rem;
+  height: 100%;
+}
+
+.activity-icon-and-title {
+  display: flex;
+  align-items: center;
+}
+
+.activity-icon {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-title {
+  color: whitesmoke;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.expand-btn {
+  background: #aaaaaa65;
+  color: #fff;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  top: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-activities {
+    margin: 1rem 1rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .activity-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .activity-title {
+    font-size: 0.8rem;
+  }
+}

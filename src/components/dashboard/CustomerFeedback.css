@@ -1,0 +1,22 @@
+.customer-feedback{
+    border-bottom: 1.5px solid #aaaaaa69;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.customer-avatar-and-name{
+    display: flex;
+}
+
+.customer-avatar-and-name span{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.feedback{
+    color: #aaa;
+    font-size: 0.7rem;
+    margin: 0;
+}
