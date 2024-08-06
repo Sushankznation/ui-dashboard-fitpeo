@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./RecentOrders.css";
 import { recentOrders } from "./data";
 import Avatar from "@mui/material/Avatar";

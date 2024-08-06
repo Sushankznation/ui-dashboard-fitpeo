@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Header.css";
 import Badge from "@mui/material/Badge";
 import Avatar from "@mui/material/Avatar";
@@ -13,16 +13,16 @@ const Header = () => {
     <div className="header">
       <div className="header-left">
         <div className="search-icon">
-          <SearchOutlinedIcon sx="color:#cbccd0" fontSize="small" />
+          <SearchOutlinedIcon style={{ color: "#cbccd0" }} fontSize="small" />
         </div>
         <input type="text" placeholder="Search" className="header-input" />
       </div>
       <div className="header-right">
         <div className="mail-icon">
-          <MailOutlineRoundedIcon sx="color:#cbccd0" fontSize="small" />
+          <MailOutlineRoundedIcon style={{ color: "#cbccd0" }} fontSize="small" />
         </div>
         <div className="settings-icon">
-          <SettingsOutlinedIcon sx="color:#cbccd0" fontSize="small" />
+          <SettingsOutlinedIcon style={{ color: "#cbccd0" }} fontSize="small" />
         </div>
         <div className="notification-icon">
           <Badge
@@ -31,7 +31,7 @@ const Header = () => {
             badgeContent=" "
             variant="dot"
           >
-            <NotificationsOutlinedIcon sx="color:#cbccd0" fontSize="small" />
+            <NotificationsOutlinedIcon style={{ color: "#cbccd0" }} fontSize="small" />
           </Badge>
         </div>
         <Avatar

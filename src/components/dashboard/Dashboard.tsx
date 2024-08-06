@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Dashboard.css";
 import { summary, activities, customerFeedback } from "./data";
 import SummarySection from "./SummarySection";
